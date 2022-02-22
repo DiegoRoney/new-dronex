@@ -16,11 +16,4 @@ function closeMenu() {
 }
 
 
-$(window).scroll(function () {
-    var scroll = $(window).scrollTop();
-    if (scroll >= 40) { 
-        $("#menu").addClass("ativo"); 
-    } else {
-        $("#menu").removeClass("ativo");
-    }
-});
+
