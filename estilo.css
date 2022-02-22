@@ -162,10 +162,11 @@ h1 {
 .imagem-container {
   justify-content: center;
   width: 400px;
-  animation: go-back 10s linear infinite alternate;
 }
 .imagem-container img {
   width: 500px;
+  animation: go-back 10s linear infinite alternate;
+  overflow: scroll;
 }
 .texto-container {
   color: #9A160C;
