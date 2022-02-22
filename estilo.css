@@ -166,7 +166,7 @@ h2 {
 /* HOME */
 .container {
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   align-content: center;
@@ -189,6 +189,7 @@ h2 {
   color: #9A160C;
   width: 600px;
   display: block;
+  text-align: center;
 }
 .btn-principal {
   background-color: #9A160C;
