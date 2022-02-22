@@ -200,6 +200,12 @@ h4 {
   display: block;
   text-align: center;
 }
+.texto-container h1 {
+  color: #2b2b2b;
+}
+.texto-container span {
+  color: #9A160C;
+}
 .btn-principal {
   background-color: #9A160C;
   color: #94BFBE;
