@@ -15,10 +15,11 @@ serif;
 @cor-4: #E1F1F1;
 @cor-5: #D8DCD8;
 
+@fonteprincipal:'Marcellus SC',serif;
 
 * {
     margin: 0;
-    padding: 0;
+    padding: 0;font-family: @fonteprincipal;
     box-sizing: border-box;
 }
 
@@ -28,9 +29,9 @@ html {
 
 li {
     list-style: none;
-    padding-left: 15px;   
+    padding-left: 15px;
+      
 }
-
 
 a {
     text-decoration: none;
@@ -41,17 +42,24 @@ h1{
     font-size: 68px;
     font-weight: bold;
     color: @cor-1;
-    font-family: 'Marcellus SC',
-serif;
+    font-family: @fonteprincipal;
 }
 
 h2{
     margin-top: 15px;  
 }
+
+h4{
+    font-size: 14px;
+    font-weight: bold;
+    color: @cor-3;
+    
+   
+}
 /* NAVBAR*/
 .header{
-    border-bottom: 1px solid @cor-1;
-    
+    border-bottom: 0px solid @cor-1;
+    font-family: @fonteprincipal;
    
 }
 
@@ -62,7 +70,7 @@ h2{
     padding: 1rem 1.5rem;
     /*COR DA BARRA*/
     background-color: @cor-1;
-    font-size: 15px;
+    font-size: 10px;
     color: @cor-3;
     
 }
@@ -78,7 +86,7 @@ h2{
 .bar {
     /*BARRAS*/
     display: block;
-    width: 25px;
+    width: 20px;
     height: 3px;
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
@@ -88,11 +96,8 @@ h2{
 
 .nav-menu {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-   
-    
-      
+    justify-content: center;
+    align-items: center;    
 }
 .nav-link{
     text-decoration: none;
@@ -111,10 +116,9 @@ h2{
 
 /*TEXTO E IMG DA LOGO*/
 .nav-logo {    
-    font-size: 2.1rem;
+    font-size: 1.1rem;
     font-weight: 500;
     color: @cor-5;
-    
     
 }
 .nav-logo img{
@@ -123,14 +127,13 @@ h2{
 }
 
 @media only screen and (max-width: 768px) {
-    .nav-menu {
-        
-        position:fixed;
-           
+    .nav-menu {       
+       
+        position: fixed;          
         justify-content: flex-start;
         align-items: flex-start;
         left: 100%;
-        top: 5rem;
+        top: 4rem;
         flex-direction: column;
         /*cor de fundo do menu*/
         background-color: @cor-1;
@@ -154,11 +157,14 @@ h2{
         
         
     }
+    /*distancia dos itens*/
     .nav-item {
-        margin: 2.5rem 0;
+        margin: 1.2rem 0;
     }
+
+    /*distancia da barra para borda*/
     .nav-item {
-        margin-left: 5rem;
+        margin-left: 1rem;
     }
 
     .hamburger {
@@ -187,13 +193,14 @@ h2{
     }
     
 }
+
 @media (min-width: 900px) { 
     .imagem-container img{
         width: 500px;
        
     } 
     .imagem-container{     
-        width: 900px; 
+        width: 770px; 
     } 
     h1{
         font-size: 128px;               
@@ -212,11 +219,11 @@ h2{
         flex-wrap: wrap;
         align-items: center; 
         justify-content: center;
-        align-content: center;      
-        margin-top: 5rem;
+        align-content: center;    
+       
         background: url(/images/banner-4.png) no-repeat center center;
         width: 100%;
-        height: 80vh;
+        height: 100vh;
         gap: 50px;
         padding: 15px;
        
@@ -225,7 +232,7 @@ h2{
     .imagem-container{        
         justify-content: center;
         width: 300px;
-       
+        z-index: 1;
     }
     .imagem-container img{
         
@@ -245,7 +252,7 @@ h2{
     .btn-principal{
         background-color:@cor-1;
         color: @cor-3;
-        font-size: 15px;
+        font-size: 18px;
         border-radius: 20px;
         height: 35px;
         width: 150px;  
@@ -266,18 +273,42 @@ h2{
           }
           
           50% {
-            transform: translate(0, 50px);
+            transform: translate(0, 80px);
           }
           
           80% {
-            transform: translate(0, -50px);
+            transform: translate(0, -80px);
           
             }
     }
 
-.info{
-    background-color:#D8DCD8;
+.info{  
+    text-align: justify;
+    background-color:@cor-4;
     color:@cor-2;
     font-size: 1.1rem;
     padding: 15px;
+    
+    h2{
+        color: @cor-1;
+    }
+}
+
+footer{
+    font-family: @fonteprincipal;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: @cor-1;
+    color: @cor-3;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    a{
+        color: @cor-3;
+    }
+    a:hover{
+        color: @cor-5;
+    }
 }
