@@ -42,6 +42,9 @@ h1 {
   color: #9A160C;
   font-family: 'Marcellus SC', serif;
 }
+h2 {
+  margin-top: 15px;
+}
 /* NAVBAR*/
 .header {
   border-bottom: 1px solid #9A160C;
@@ -171,6 +174,7 @@ h1 {
 .texto-container {
   color: #9A160C;
   width: 400px;
+  display: block;
 }
 .btn-principal {
   background-color: #9A160C;
@@ -179,6 +183,7 @@ h1 {
   border-radius: 20px;
   height: 35px;
   width: 150px;
+  margin-top: 25px;
 }
 .btn-secundario {
   background-color: #94BFBE;
