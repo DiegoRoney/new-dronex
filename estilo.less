@@ -318,3 +318,49 @@ footer{
         color: @cor-5;
     }
 }
+
+/*shop*/
+
+.shop-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: @cor-1;
+    width: 100%;
+   
+    gap: 50px;
+    padding: 15px;
+   
+}
+
+.shop-item{
+    color: @cor-1;
+}
+
+.imagens-container{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: @cor-1;
+    img{
+        
+        background-color: @cor-4;
+        border: 3px solid @cor-2;
+        width: 350px;
+        height: 300px;
+    }
+    .imagem-item{
+       flex: 1 1 300px;
+        background-color: @cor-2;
+        margin: 15px;
+        height: 470px;
+    }
+    
+    .imagem-item:hover{
+        border: 3px solid @cor-1;
+        background-color: @cor-1;
+        color: @cor-4;
+    }
+}

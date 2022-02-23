@@ -262,3 +262,41 @@ footer a {
 footer a:hover {
   color: #D8DCD8;
 }
+/*shop*/
+.shop-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #9A160C;
+  width: 100%;
+  gap: 50px;
+  padding: 15px;
+}
+.shop-item {
+  color: #9A160C;
+}
+.imagens-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #9A160C;
+}
+.imagens-container img {
+  background-color: #E1F1F1;
+  border: 3px solid #6E878E;
+  width: 350px;
+  height: 300px;
+}
+.imagens-container .imagem-item {
+  flex: 1 1 300px;
+  background-color: #6E878E;
+  margin: 15px;
+  height: 470px;
+}
+.imagens-container .imagem-item:hover {
+  border: 3px solid #9A160C;
+  background-color: #9A160C;
+  color: #E1F1F1;
+}
