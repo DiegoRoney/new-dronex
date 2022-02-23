@@ -58,18 +58,15 @@ h4 {
 .navbar {
   display: flex;
   justify-content: space-between;
+  font-size: 20px;
   align-items: center;
   padding: 1rem 1.5rem;
   /*COR DA BARRA*/
   background-color: #9A160C;
-  font-size: 10px;
   color: #94BFBE;
 }
 .hamburger {
   display: none;
-}
-.navbar img {
-  width: 15px;
 }
 .bar {
   /*BARRAS*/
@@ -102,9 +99,6 @@ h4 {
   font-size: 1.1rem;
   font-weight: 500;
   color: #D8DCD8;
-}
-.nav-logo img {
-  width: 25px;
 }
 @media only screen and (max-width: 768px) {
   .nav-menu {
@@ -208,7 +202,7 @@ h4 {
 }
 .btn-principal {
   background-color: #9A160C;
-  color: #94BFBE;
+  color: #ffffff;
   font-size: 18px;
   border-radius: 20px;
   height: 35px;
@@ -237,7 +231,7 @@ h4 {
 }
 .info {
   text-align: justify;
-  background-color: #E1F1F1;
+  background-color: #94BFBE;
   color: #6E878E;
   font-size: 1.1rem;
   padding: 15px;
@@ -264,7 +258,7 @@ footer a:hover {
 }
 /*shop*/
 .square {
-  width: 1000px;
+  width: 900px;
   margin-top: 50px;
   display: flex;
   justify-content: center;
@@ -332,13 +326,13 @@ footer a:hover {
 }
 .imagens-container img {
   background-color: #94BFBE;
-  border: 3px solid #94BFBE;
   width: 350px;
   height: 300px;
 }
 .imagens-container .imagem-item {
-  width: 350px;
-  background-color: #94BFBE;
+  border: 1px solid #6E878E;
+  width: 355px;
+  background-color: #ffffff;
   margin: 15px;
   height: 470px;
   justify-content: center;
@@ -350,7 +344,7 @@ footer a:hover {
   padding: 10px;
 }
 .imagens-container .imagem-item:hover {
-  border: 3px solid #9A160C;
   background-color: #9A160C;
   color: #E1F1F1;
+  box-shadow: 20px 20px 60px #6E878E, -20px -20px 60px #94BFBE;
 }

@@ -15,6 +15,8 @@ serif;
 @cor-4: #E1F1F1;
 @cor-5: #D8DCD8;
 @cor-6: #2b2b2b;
+@cor-7: #ffffff;
+
 
 @fonteprincipal:'Marcellus SC',serif;
 
@@ -61,18 +63,22 @@ h4{
 .header{
     border-bottom: 0px solid @cor-1;
     font-family: @fonteprincipal;
+    
    
 }
 
 .navbar {    
     display: flex;
     justify-content: space-between;
+    font-size: 20px;
     align-items: center;
     padding: 1rem 1.5rem;
     /*COR DA BARRA*/
     background-color: @cor-1;
-    font-size: 10px;
+    
     color: @cor-3;
+    
+    
     
 }
 
@@ -80,9 +86,7 @@ h4{
     display: none;
     
 }
-.navbar img{
-    width: 15px;
-}
+
 
 .bar {
     /*BARRAS*/
@@ -122,10 +126,7 @@ h4{
     color: @cor-5;
     
 }
-.nav-logo img{
-    width: 25px;
-    
-}
+
 
 @media only screen and (max-width: 768px) {
     .nav-menu {       
@@ -257,7 +258,7 @@ h4{
     
     .btn-principal{
         background-color:@cor-1;
-        color: @cor-3;
+        color: @cor-7;
         font-size: 18px;
         border-radius: 20px;
         height: 35px;
@@ -290,7 +291,7 @@ h4{
 
 .info{  
     text-align: justify;
-    background-color:@cor-4;
+    background-color:@cor-3;
     color:@cor-2;
     font-size: 1.1rem;
     padding: 15px;
@@ -322,7 +323,7 @@ footer{
 /*shop*/
 
 .square{
-    width: 1000px;
+    width: 900px;
     margin-top: 50px;    
     display: flex;
     
@@ -410,18 +411,16 @@ footer{
     justify-content: center;
     color: @cor-1;
     margin-top: 20px;   
-    img{
-           
-        background-color: @cor-3;
-        border: 3px solid @cor-3;
+    img{           
+        background-color: @cor-3;        
         width: 350px;
-        height: 300px;
-        
+        height: 300px;        
     }
+
     .imagem-item{
-        
-        width: 350px;
-        background-color: @cor-3;
+        border: 1px solid @cor-2;
+        width: 355px;
+        background-color: @cor-7;
         margin: 15px;
         height: 470px;        
         justify-content: center;
@@ -435,8 +434,11 @@ footer{
     }
     
     .imagem-item:hover{
-        border: 3px solid @cor-1;
+        
         background-color: @cor-1;
         color: @cor-4;
+      
+        box-shadow:  20px 20px 60px @cor-2,
+                    -20px -20px 60px @cor-3;
     }
 }
