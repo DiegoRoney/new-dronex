@@ -3,14 +3,14 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/eaglelake/v18/ptRMTiqbbuNJDOiKj9wG5O4.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/eaglelake/v20/ptRMTiqbbuNJDOiKj9wG5O4.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Marcellus SC';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/marcellussc/v11/ke8iOgUHP1dg-Rmi6RWjbLEPgQ.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/marcellussc/v13/ke8iOgUHP1dg-Rmi6RWjbLEPgQ.ttf) format('truetype');
 }
 /*
 font-family: 'Eagle Lake',
@@ -54,6 +54,7 @@ h4 {
 .header {
   border-bottom: 0px solid #9A160C;
   font-family: 'Marcellus SC', serif;
+  z-index: 8000000;
 }
 .navbar {
   display: flex;
@@ -199,6 +200,9 @@ h4 {
 }
 .texto-container span {
   color: #9A160C;
+}
+.piloto img {
+  width: 100%;
 }
 .btn-principal {
   background-color: #9A160C;
