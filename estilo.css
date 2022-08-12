@@ -34,12 +34,12 @@ li {
 }
 a {
   text-decoration: none;
-  color: #94BFBE;
+  color: #ffffff;
 }
 h1 {
   font-size: 68px;
   font-weight: bold;
-  color: #9A160C;
+  color: #BF2424;
   font-family: 'Marcellus SC', serif;
 }
 h2 {
@@ -48,11 +48,11 @@ h2 {
 h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #94BFBE;
+  color: #ffffff;
 }
 /* NAVBAR*/
 .header {
-  border-bottom: 0px solid #9A160C;
+  border-bottom: 0px solid #BF2424;
   font-family: 'Marcellus SC', serif;
   z-index: 8000000;
 }
@@ -63,8 +63,8 @@ h4 {
   align-items: center;
   padding: 1rem 1.5rem;
   /*COR DA BARRA*/
-  background-color: #9A160C;
-  color: #94BFBE;
+  background-color: #BF2424;
+  color: #ffffff;
 }
 .hamburger {
   display: none;
@@ -110,7 +110,7 @@ h4 {
     top: 4rem;
     flex-direction: column;
     /*cor de fundo do menu*/
-    background-color: #9A160C;
+    background-color: #BF2424;
     width: 100%;
     color: #D8DCD8;
     height: 100vh;
@@ -190,7 +190,7 @@ h4 {
   overflow: hidden;
 }
 .texto-container {
-  color: #9A160C;
+  color: #BF2424;
   width: 600px;
   display: block;
   text-align: center;
@@ -199,13 +199,13 @@ h4 {
   color: #2b2b2b;
 }
 .texto-container span {
-  color: #9A160C;
+  color: #BF2424;
 }
 .piloto img {
   width: 100%;
 }
 .btn-principal {
-  background-color: #9A160C;
+  background-color: #BF2424;
   color: #ffffff;
   font-size: 18px;
   border-radius: 20px;
@@ -214,8 +214,8 @@ h4 {
   margin-top: 25px;
 }
 .btn-secundario {
-  background-color: #94BFBE;
-  color: #9A160C;
+  background-color: #2b2b2b;
+  color: #F2F2F2;
   font-size: 15px;
   border-radius: 20px;
   height: 35px;
@@ -235,27 +235,27 @@ h4 {
 }
 .info {
   text-align: justify;
-  background-color: #94BFBE;
-  color: #6E878E;
+  background-color: #ffffff;
+  color: #BF4545;
   font-size: 1.1rem;
   padding: 15px;
 }
 .info h2 {
-  color: #9A160C;
+  color: #BF2424;
 }
 footer {
   font-family: 'Marcellus SC', serif;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #9A160C;
-  color: #94BFBE;
+  background-color: #BF2424;
+  color: #ffffff;
   height: 40px;
   width: 100%;
   text-align: center;
 }
 footer a {
-  color: #94BFBE;
+  color: #ffffff;
 }
 footer a:hover {
   color: #D8DCD8;
@@ -277,7 +277,7 @@ footer a:hover {
   color: #2b2b2b;
   justify-content: center;
   display: flex;
-  background-color: #E1F1F1;
+  background-color: #F2F2F2;
   align-items: center;
   align-content: center;
 }
@@ -286,7 +286,7 @@ footer a:hover {
   height: 400px;
   border-radius: 10px;
   margin: 10px;
-  background-color: #E1F1F1;
+  background-color: #F2F2F2;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -303,7 +303,7 @@ footer a:hover {
   flex-wrap: nowrap;
   align-content: flex-start;
   align-items: flex-start;
-  color: #6E878E;
+  color: #BF4545;
   font-size: 1.1rem;
   padding: 15px;
 }
@@ -313,28 +313,28 @@ footer a:hover {
   justify-content: center;
   align-items: center;
   align-content: center;
-  background-color: #E1F1F1;
+  background-color: #F2F2F2;
   width: 100%;
   gap: 5px;
   padding: 15px;
 }
 .shop-item {
-  color: #9A160C;
+  color: #BF2424;
 }
 .imagens-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  color: #9A160C;
+  color: #BF2424;
   margin-top: 20px;
 }
 .imagens-container img {
-  background-color: #94BFBE;
+  background-color: #ffffff;
   width: 350px;
   height: 300px;
 }
 .imagens-container .imagem-item {
-  border: 1px solid #6E878E;
+  border: 1px solid #BF4545;
   width: 355px;
   background-color: #ffffff;
   margin: 15px;
@@ -348,7 +348,7 @@ footer a:hover {
   padding: 10px;
 }
 .imagens-container .imagem-item:hover {
-  background-color: #9A160C;
-  color: #E1F1F1;
-  box-shadow: 20px 20px 60px #6E878E, -20px -20px 60px #94BFBE;
+  background-color: #BF2424;
+  color: #F2F2F2;
+  box-shadow: 20px 20px 40px #BF4545, -20px -20px 60px #ffffff;
 }
